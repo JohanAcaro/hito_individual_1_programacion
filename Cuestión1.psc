@@ -25,13 +25,13 @@ Algoritmo Cuestión1
     	FinPara
 	
 	//Escribe las variables en la consola
-	Escribir "La suma de los números es ",suma //este valor puede ser diferente
-	Escribir "El número entero es ",num_entero //
-	Escribir "El número decimal es ",decimal   // estos valores, no
-	Escribir "El Booleano es ",booleano	    //
-	Escribir "La letra es ",letra				//
+	Escribir "La suma de los números es ",suma
+	Escribir "El número entero es ",num_entero 
+	Escribir "El número decimal es ",decimal   
+	Escribir "El Booleano es ",booleano	  
+	Escribir "La letra es ",letra		   
 	Escribir "La letra en minúscula es ",Minusculas(letra) //Cambia a minúsculas la cadena, que en este caso, es una letra
-	Escribir "La ciudad es ",ciudad			// 
+	Escribir "La ciudad es ",ciudad
 	Escribir "La ciudad en mayúsculas es ",Mayusculas(ciudad) //Cambia a mayúsculas la cadena
 	Escribir "Las letras de la ciudad son ", Longitud(ciudad) //Devuelve la cantidad de caracteres de la cadena
 	
