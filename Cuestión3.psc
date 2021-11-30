@@ -1,11 +1,11 @@
-Algoritmo Cuesti髇3
-	//Un array/arreglo se define como una estructura de datos con elementos homog閚eos
+Algoritmo Cuesti贸n3
+	//Un array/arreglo se define como una estructura de datos con elementos homog茅neos
 	//y del mismo tipo
 	Definir array_uni,cont,total Como Entero //Array Unidimensional
 	Definir array_multi,f,c,totalf Como Entero //Array Multidimensional
 	
-	//Array Unidimensional - Como su nombre indica solo tiene una dimensi髇. 
-	//Lo podemos ver en el ejemplo a continuaci髇.
+	//Array Unidimensional - Como su nombre indica solo tiene una dimensi贸n, se almacena la informaci贸n en una lista 
+	//Lo podemos ver en el ejemplo a continuaci贸n.
 	Escribir "ARRAY UNIDIMENSIONAL"
 	total<-0
 	Dimension array_uni[4]
@@ -16,11 +16,11 @@ Algoritmo Cuesti髇3
 	FinPara
 	
 	Para cont<-0 Hasta 3 Con Paso 1 Hacer
-		Escribir "El numero de la posici髇 ",cont+1," es: ",array_uni[cont]
+		Escribir "El numero de la posici贸n ",cont+1," es: ",array_uni[cont]
 	FinPara
 	Escribir "La suma total de los elementos de la lista es: ",total
 	
-	//Array Multidimensional - Los elementos se encuentran organizados en varias dimensiones.
+	//Array Multidimensional - Los elementos se encuentran organizados en varias dimensiones, se almacena la informaci贸n en tablas.
 	Escribir "ARRAY MULTIDIMENSIONAL"
 	Dimension array_multi[3,3]
 	totalf<-0
